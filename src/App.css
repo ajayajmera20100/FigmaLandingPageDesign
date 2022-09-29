@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap');
+
+
+:root{
+  --bgcolor:rgba(0,110,169,255);
+  --color:rgba(0,124,194,255);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button{
+  border:none;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+button:focus{
+  outline:none;
+}

@@ -1,0 +1,28 @@
+.training-container{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.video{
+    width: 75%;
+    margin-bottom: 50px;
+    padding: 0;
+    border:none;
+    display:flex;
+    box-sizing: border-box;
+    background-color: var(--color);
+}
+
+.video video{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    border:7px solid var(--color);
+}
+
+video:focus,video:active{
+    outline:none;
+}
