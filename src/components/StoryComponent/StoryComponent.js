@@ -1,7 +1,5 @@
 import React from 'react'
 import "./StoryComponent.css"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCheck } from '@fortawesome/free-solid-svg-icons'
 import storyImg from "../../images/story-image1.jpg"
 import check from "../../images/check.PNG"
 
